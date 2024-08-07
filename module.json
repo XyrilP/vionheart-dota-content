@@ -2,7 +2,7 @@
   "id": "vionheart-dota-content",
   "title": "Vionheart Content (DOTA)",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-dota-content/main/module.json",
-  "version": "1.0",
+  "version": "1.1.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
