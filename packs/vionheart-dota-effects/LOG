@@ -1,5 +1,3 @@
-2024/08/07-11:31:03.617 3bac Recovering log #11
-2024/08/07-11:31:03.617 3bac Level-0 table #13: started
-2024/08/07-11:31:03.625 3bac Level-0 table #13: 1371 bytes OK
-2024/08/07-11:31:03.629 3bac Delete type=0 #11
-2024/08/07-11:31:03.629 3bac Delete type=3 #10
+2024/08/08-11:53:11.016 28f0 Recovering log #26
+2024/08/08-11:53:11.021 28f0 Delete type=0 #26
+2024/08/08-11:53:11.021 28f0 Delete type=3 #24
