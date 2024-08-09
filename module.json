@@ -3,7 +3,7 @@
   "title": "Vionheart Content (DOTA)",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-dota-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-dota-content/archive/refs/heads/main.zip",
-  "version": "6.3.1.5",
+  "version": "6.3.1.6",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -188,8 +188,62 @@
             "label": "Magic Recovery",
             "description": "This item allow spellcasters to regain their spell slots.\nWhen you recover Magic Points, you regain a spell slot equal to the Magic Points recovered or lower, you can divide the amount as many times as you want to regain multiple, lower ranked spell slots."
           }
-        }
-      }
-    }
-  }
+        },
+		"shieldTraits": {
+          "strength": {
+            "label": "Strength",
+            "description": "Affects Strength-based attack rolls and damage, Fortitude saves and maximum Hit Points."
+          },
+          "agility": {
+            "label": "Agility",
+            "description": "Affects Dexterity-based attack rolls and damage, Reflex saves, Attack Speed and Physical Protection."
+          },
+          "intelligence": {
+            "label": "Intelligence",
+            "description": "Affects Intelligence-, Wisdom-, Charisma-based attack rolls and damage, Class DCs, Spell attack rolls and DCs, Perception and Magical Protection."
+          },
+          "universal": {
+            "label": "Universal",
+            "description": "Affects all skill checks."
+          },
+          "health": {
+            "label": "Health",
+            "description": "This item increases maximum Hit Points."
+          },
+          "attack-speed": {
+            "label": "Attack Speed",
+            "description": "This item grants a circumstance bonus to attack rolls with multiple attack penalty."
+          },
+          "attack-damage": {
+            "label": "Attack Damage",
+            "description": "This item grants additional damage to all Strikes."
+          },
+          "lifesteal": {
+            "label": "Lifesteal",
+            "description": "This item restore your Hit Points via Strikes."
+          },
+          "spell-lifesteal": {
+            "label": "Spell Lifesteal",
+            "description": "This item restore your Hit Points via spells."
+          },
+          "speed": {
+            "label": "Speed",
+            "description": "This item increases your Speeds."
+          },
+          "physical-protection": {
+            "label": "Physical Protection",
+            "description": "This item grants a bonus AC and physical damage resistance."
+          },
+          "magical-protection": {
+            "label": "Magical Protection",
+            "description": "This item grants a bonus to AC and saving throws vs. magic and magical damage resistance."
+          },
+          "magic-recovery": {
+            "label": "Magic Recovery",
+            "description": "This item allow spellcasters to regain their spell slots.\nWhen you recover Magic Points, you regain a spell slot equal to the Magic Points recovered or lower, you can divide the amount as many times as you want to regain multiple, lower ranked spell slots."
+          }
+		}
+		}
+	}
+	}
 }
