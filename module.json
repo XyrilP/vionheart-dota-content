@@ -3,7 +3,7 @@
   "title": "Vionheart Content (DOTA)",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-dota-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-dota-content/archive/refs/heads/main.zip",
-  "version": "7.2",
+  "version": "7.2.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -85,6 +85,28 @@
       "system": "pf2e"
     }
   ],
+    "packFolders": [
+        {
+            "name": "Vionheart Content",
+            "color": "#C864C8",
+            "sorting": "a",
+            "folders": [
+                {
+                    "name": "DOTA",
+                    "sorting": "a",
+                    "color": "#C83232",
+                    "packs": [
+						"vionheart-dota-monsters",
+						"vionheart-dota-items",
+						"vionheart-dota-spells",
+						"vionheart-dota-feats",
+						"vionheart-dota-effects",
+						"vionheart-dota-actions"
+                    ]
+                }
+            ]
+        }
+    ],
   "relationships": {
     "systems": [
       {
