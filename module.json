@@ -6,10 +6,10 @@
   "version": "8.0",
   "compatibility": {
     "minimum": "12",
-    "verified": "12",
-    "maximum": "12"
+    "verified": "13",
+    "maximum": "13"
   },
-  "description": "Fan-made DOTA content for the Vionheart campaign.",
+  "description": "<p>Fan-made DOTA content for the Vionheart campaign.</p>",
   "authors": [
     {
       "name": "Xyril P.",
@@ -78,35 +78,37 @@
       "label": "Vionheart Dota Actions",
       "path": "packs/vionheart-dota-actions",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     }
   ],
-    "packFolders": [
+  "packFolders": [
+    {
+      "name": "Vionheart Content",
+      "color": "#c864c8",
+      "sorting": "a",
+      "folders": [
         {
-            "name": "Vionheart Content",
-            "color": "#C864C8",
-            "sorting": "a",
-            "folders": [
-                {
-                    "name": "DOTA",
-                    "sorting": "a",
-                    "color": "#C83232",
-                    "packs": [
-						"vionheart-dota-monsters",
-						"vionheart-dota-items",
-						"vionheart-dota-spells",
-						"vionheart-dota-feats",
-						"vionheart-dota-effects",
-						"vionheart-dota-actions"
-                    ]
-                }
-            ]
+          "name": "DOTA",
+          "sorting": "a",
+          "color": "#c83232",
+          "packs": [
+            "vionheart-dota-monsters",
+            "vionheart-dota-items",
+            "vionheart-dota-spells",
+            "vionheart-dota-feats",
+            "vionheart-dota-effects",
+            "vionheart-dota-actions"
+          ],
+          "folders": []
         }
-    ],
+      ],
+      "packs": []
+    }
+  ],
   "relationships": {
     "systems": [
       {
@@ -211,7 +213,7 @@
             "description": "This item allow spellcasters to regain their spell slots.\nWhen you recover Magic Points, you regain a spell slot equal to the Magic Points recovered or lower, you can divide the amount as many times as you want to regain multiple, lower ranked spell slots."
           }
         },
-		"shieldTraits": {
+        "shieldTraits": {
           "strength": {
             "label": "Strength",
             "description": "Affects Strength-based attack rolls and damage, Fortitude saves and maximum Hit Points."
@@ -264,8 +266,8 @@
             "label": "Magic Recovery",
             "description": "This item allow spellcasters to regain their spell slots.\nWhen you recover Magic Points, you regain a spell slot equal to the Magic Points recovered or lower, you can divide the amount as many times as you want to regain multiple, lower ranked spell slots."
           }
-		}
-		}
-	}
-	}
+        }
+      }
+    }
+  }
 }
